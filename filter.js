@@ -25,3 +25,5 @@ function htmlfilter(html,whitelist){
 	html.replace(lt,'&lt;');
 	html.replace(rt,'&gt;');
 }
+
+exports.htmlfilter=htmlfilter;
